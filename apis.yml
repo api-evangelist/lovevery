@@ -1,7 +1,24 @@
 aid: lovevery
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lovevery.png
 name: Lovevery
-description: 'Lovevery is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Lovevery is a direct-to-consumer children''s brand that designs stage-based
+  Play Kits, books, and learning products for infants and toddlers, grounded in child-development
+  research. It operates a Shopify-backed e-commerce and subscription storefront at
+  lovevery.com with a customer help center, blog, and careers site. Surfaced as a
+  portfolio company of GV (Google Ventures) and added to the API Evangelist network,
+  Lovevery publishes no public developer/API surface at this time; this profile captures
+  its public web and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/lovevery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- E-commerce
+- Retail
+- Children
+- Education
+- Subscription
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +45,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://lovevery.com
+  url: https://lovevery.com
+- type: Blog
+  url: https://blog.lovevery.com/
+- type: Support
+  url: https://help.lovevery.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://lovevery.com/pages/privacy-policy
+- type: TermsOfService
+  url: https://lovevery.com/pages/terms-and-conditions
+- type: DomainSecurity
+  url: security/lovevery-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
